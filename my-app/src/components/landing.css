@@ -1,0 +1,112 @@
+.Collage_Main{
+    position:relative;
+    height:100vh;
+    border: 2px solid blue;
+}
+.Collage_img{
+    width: 100%;
+}
+.img1, .img2, .img3, .img4 {
+    position:absolute;
+    width: 40vw;
+    height: 40vh;
+    transform: scale(0.9);
+    object-fit: cover;
+}
+.img1{
+    border: 2px solid black;
+    top:3%;
+    left:15%;
+    transition: dog 1s ease-in-out;
+    animation: dog 2s 0s 1;
+}
+@keyframes dog {
+    0%{
+        top: -200px;
+        opacity: 0;
+    }
+    100%{
+        top:3%;
+        opacity: 1;
+    }
+}
+@keyframes education {
+    0%{
+        right: -200px;
+        opacity: 0;
+    }
+    100%{
+        right:10%;
+        opacity: 1;
+    }
+}
+@keyframes medical {
+    0%{
+        left: -400px;
+        opacity: 0;
+    }
+    100%{
+        left:10%;
+        opacity: 1;
+    }
+}
+@keyframes children {
+    0%{
+        bottom: -400px;
+        opacity: 0;
+    }
+    100%{
+        bottom:15%;
+        opacity: 1;
+    }
+}
+.img2{
+    border: 2px solid orange;
+    top:3%;
+    right:10%;
+    transition: education 1s ease-in-out;
+    animation: education 2s 0s 1;
+}
+.img3{
+    border: 2px solid red;
+    top:44%;
+    left:10%;
+    transition: medical 1s ease-in-out;
+    animation: medical 2s 0s 1;
+
+}
+.img4{
+    border: 2px solid green;
+    bottom:15%;
+    right:15%;
+    transition: children 1s ease-in-out;
+    animation: children 2s 0s 1;
+}
+.Collage_tagline{
+    background-color: #7354CC;
+    opacity: 0.67;
+    width: 100%;
+    font-size: 4.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position:absolute;
+    transition: tagline 1s ease-in-out;
+    animation: tagline 1s  0s 1  ;
+}
+@keyframes tagline {
+    0%{
+        top:-2000px;
+        opacity: 0;
+    }
+    100%{
+        top:0px;
+        opacity: 0.67;
+    }
+    
+}
+.tagline{
+    width: 50%;
+}
