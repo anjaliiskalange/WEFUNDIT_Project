@@ -1,24 +1,23 @@
 .Collage_Main{
     position:relative;
     height:100vh;
-    border: 2px solid blue;
 }
 .Collage_img{
     width: 100%;
 }
 .img1, .img2, .img3, .img4 {
+    opacity: 0.7;
     position:absolute;
     width: 40vw;
     height: 40vh;
-    transform: scale(0.9);
+    transform: scale(0.89);
     object-fit: cover;
 }
 .img1{
-    border: 2px solid black;
     top:3%;
     left:15%;
-    transition: dog 1s ease-in-out;
-    animation: dog 2s 0s 1;
+    transition: 1s ease-in-out;
+    animation: dog 2s;
 }
 @keyframes dog {
     0%{
@@ -61,40 +60,38 @@
     }
 }
 .img2{
-    border: 2px solid orange;
     top:3%;
     right:10%;
-    transition: education 1s ease-in-out;
-    animation: education 2s 0s 1;
+    transition: 1s ease-in-out;
+    animation: education 2s;
 }
 .img3{
-    border: 2px solid red;
     top:44%;
     left:10%;
-    transition: medical 1s ease-in-out;
-    animation: medical 2s 0s 1;
+    transition: 1s ease-in-out;
+    animation: medical 2s;
 
 }
 .img4{
-    border: 2px solid green;
     bottom:15%;
     right:15%;
-    transition: children 1s ease-in-out;
-    animation: children 2s 0s 1;
+    transition: 1s ease-in-out;
+    animation: children 2s ;
 }
 .Collage_tagline{
     background-color: #7354CC;
-    opacity: 0.67;
+    opacity: 0.7;
     width: 100%;
     font-size: 4.5rem;
-    color: white;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
+    font-family: Bebas-Neue;
     position:absolute;
-    transition: tagline 1s ease-in-out;
-    animation: tagline 1s  0s 1  ;
+    transition:1s ease-in-out;
+    animation: tagline 1s;
 }
 @keyframes tagline {
     0%{
