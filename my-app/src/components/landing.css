@@ -1,6 +1,6 @@
 .Collage_Main{
     position:relative;
-    height:200vh;
+    height:100vh;
 }
 .Collage_img{
     width: 100%;
@@ -100,10 +100,34 @@
     }
     100%{
         top:0px;
-        opacity: 0.67;
+        opacity: 0.7;
     }
     
 }
 .tagline{
     width: 50%;
+}
+.stats{
+    background: #E5E5E5;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.stat__number{
+    font-family: Bebas-Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 38px;
+    color: #7354CC;
+}
+.stats__name{
+    font-family: Arima;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 39px;
+    color: #000000;
 }
