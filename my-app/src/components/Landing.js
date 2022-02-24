@@ -2,6 +2,7 @@ import Collage from "./Collage";
 import './landing.css';
 import Header from "./Header";
 import Stats from "./stats";
+import RadialMenu from "./RadialMenu";
 
 const Landing=()=>{
     return(
@@ -11,6 +12,7 @@ const Landing=()=>{
                 <Collage/>
             </div>
             <Stats/>
+            <RadialMenu/>
         </div>
     );
 }

@@ -1,0 +1,266 @@
+.wrap{
+    position:relative;
+    width:80vmin; 
+    height:80vmin;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:inherit;
+    opacity:1;
+    transform: scale(.8) translateZ(0px);
+}
+.wrap__link{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 47.5%;
+    height: 47.5%;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    transform: scale(.5) translateZ(0px);
+    background-color: plum;
+}
+.wrap__link, .wrap__div{
+    height: 50%;
+    background-size: cover;
+    opacity: 1;
+    transition: opacity .5s;
+    border-radius: inherit;
+}
+.wrap__div {
+    display: block;
+}
+.wrap__link, .wrap__div {
+    opacity: 1;
+    transform: translatez(0px);
+}
+.wrap__link:nth-child(1) {
+    font-family: Arima;
+    font-weight: 500;
+    font-size: 2rem;
+    border-radius: 40vmin 0 0 0;
+    transform-origin: 110% 110%;
+    transition: transform .4s .15s;
+}
+.wrap__link:nth-child(1):hover~.wrap__link:nth-child(5){
+    transition: all ease-in-out 1s;
+    opacity: 1;
+    background-image: url('../images/3678447_hospital_medical_health_healthcare_icon.svg');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% ;
+} 
+.wrap__link:nth-child(2):hover~.wrap__link:nth-child(5){
+    transition: all ease-in-out 1s;
+    opacity: 1;
+    background-image: url('../images/3586376_education_graduate_graduation\ cap_icon.svg');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.wrap__link:nth-child(3):hover~.wrap__link:nth-child(5){
+    transition: all ease-in-out 1s;
+    opacity: 1;
+    background-image: url('../images/6588539_baby_boy_kid_kids_male_icon.svg');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% ;
+}
+.wrap__link:nth-child(4):hover~.wrap__link:nth-child(5){
+    transition: all ease-in-out 1s;
+    opacity: 1;
+    background-image: url('../images/3204557_animal_domestic_pet_wild_zoo_icon.svg');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% ;
+}
+.wrap__link:nth-child(2) {
+    font-family: Arima;
+    font-weight: 500;
+    border-radius: 0 40vmin 0 0;
+    left: 52.5%;
+    transform-origin: -10% 110%;
+    transition: transform .4s .2s;
+}
+.wrap__link:nth-child(3) {
+    font-family: Arima;
+    font-weight: 500;
+    border-radius: 0 0 0 40vw;
+    top: 52.5%;
+    transform-origin: 110% -10%;
+    transition: transform .4s .25s;
+}
+.wrap__link:nth-child(4) {
+    font-family: Arima;
+    font-weight: 500;
+    border-radius: 0 0 40vmin 0;
+    top: 52.5%;
+    left: 52.5%;
+    transform-origin: -10% -10%;
+    transition: transform .4s .3s;
+}
+.wrap__link:nth-child(5) {
+    width: 55%;
+    height: 55%;
+    left: 22.5%;
+    top: 22.5%;
+    border-radius: 50vmin;
+    box-shadow: 0 0 0 5vmin #ffffff;
+    background-image: url('../images/Butterfly_logo.svg');
+    background-repeat: no-repeat;
+}
+/*medical curve*/
+.M {
+    transform: translate(40px, 185px) rotate(-80deg);
+}
+
+.E {
+    transform: translate(20px, 140px) rotate(-70deg);
+}
+
+.D {
+    transform: translate(13px, 100px) rotate(-60deg);
+}
+
+.I {
+    transform: translate(13px, 75px) rotate(-50deg);
+}
+
+.C {
+    transform: translate(13px, 54px) rotate(-40deg);
+}
+
+.A {
+    transform: translate(14px, 30px) rotate(-35deg);
+}
+
+.L{
+    transform: translate(20px, 15px) rotate(-20deg);
+}
+/*education curve*/
+.E2 {
+    transform: translate(20px, 10px) rotate(15deg);
+}
+
+.D2 {
+    transform: translate(25px, 22px) rotate(25deg);
+}
+
+.U {
+    transform: translate(23px, 38px) rotate(30deg);
+}
+
+.C2 {
+    transform: translate(23px, 55px) rotate(40deg);
+}
+
+.A2 {
+    transform: translate(24px, 78px) rotate(45deg);
+}
+
+.T {
+    transform: translate(20px, 103px) rotate(55deg);
+}
+
+.I2{
+    transform: translate(15px, 125px) rotate(60deg);
+}
+.O {
+    transform: translate(8px, 155px) rotate(65deg);
+}
+.N{
+    transform: translate(-13px, 195px) rotate(70deg);
+}
+/*Children curve*/
+.C3 {
+    transform: translate(30px, 10px) rotate(75deg);
+}
+
+.H {
+    transform: translate(10px, 45px) rotate(68deg);
+}
+
+.I3 {
+    transform: translate(0px, 75px) rotate(68deg);
+}
+
+.L2 {
+    transform: translate(0px, 100px) rotate(65deg);
+}
+
+.D3 {
+    transform: translate(-10px, 128px) rotate(55deg);
+}
+
+.R {
+    transform: translate(-10px, 153px) rotate(45deg);
+}
+
+.E3{
+    transform: translate(-5px, 175px) rotate(40deg);
+}
+.N2 {
+    transform: translate(5px, 195px) rotate(30deg);
+}
+/*Animals curve*/
+.A3 {
+    transform: translate(20px, 200px) rotate(-15deg);
+}
+
+.N3 {
+    transform: translate(30px, 185px) rotate(-25deg);
+}
+
+.I4 {
+    transform: translate(40px, 168px) rotate(-28deg);
+}
+.M2 {
+    transform: translate(44px, 148px) rotate(-35deg);
+}
+
+.A4 {
+    transform: translate(50px, 110px) rotate(-45deg);
+}
+
+.L3{
+    transform: translate(48px, 78px) rotate(-55deg);
+}
+.S {
+    transform: translate(38px,45px) rotate(-65deg);
+}
+
+.wrap__div span {
+    font-family: Arima;
+    font-size: 3rem;
+    display: inline-block;
+}
+.radial__heading{
+    font-family: Bebas-Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5% 10% 4% 10%;
+    color: #7354CC;
+}
+.radial__tagline{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 149.69%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #817979;
+    margin:  1% 10%;
+}
