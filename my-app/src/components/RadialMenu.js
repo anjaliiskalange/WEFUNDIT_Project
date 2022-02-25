@@ -60,6 +60,7 @@ const RadialMenu =()=>{
             </a>
             <a href='#' className='wrap__link'><div className='wrap__div'></div></a>
         </div>
+        <div className='why__heading'>WHY WEFUNDIT</div>
         </div>
     );
 }

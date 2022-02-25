@@ -22,7 +22,7 @@
     font-size: 36px;
     color: #FFFFFF;
     transform: scale(.5) translateZ(0px);
-    background-color: plum;
+    background-color: #CABEEC;
 }
 .wrap__link, .wrap__div{
     height: 50%;
@@ -49,7 +49,7 @@
 .wrap__link:nth-child(1):hover~.wrap__link:nth-child(5){
     transition: all ease-in-out 1s;
     opacity: 1;
-    background-image: url('../images/3678447_hospital_medical_health_healthcare_icon.svg');
+    background-image: url('../images/hospital.png');
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: 50% ;
@@ -57,7 +57,7 @@
 .wrap__link:nth-child(2):hover~.wrap__link:nth-child(5){
     transition: all ease-in-out 1s;
     opacity: 1;
-    background-image: url('../images/3586376_education_graduate_graduation\ cap_icon.svg');
+    background-image: url('../images/magistrate.png');
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -65,7 +65,7 @@
 .wrap__link:nth-child(3):hover~.wrap__link:nth-child(5){
     transition: all ease-in-out 1s;
     opacity: 1;
-    background-image: url('../images/6588539_baby_boy_kid_kids_male_icon.svg');
+    background-image: url('../images/smiling-baby.png');
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: 50% ;
@@ -73,7 +73,7 @@
 .wrap__link:nth-child(4):hover~.wrap__link:nth-child(5){
     transition: all ease-in-out 1s;
     opacity: 1;
-    background-image: url('../images/3204557_animal_domestic_pet_wild_zoo_icon.svg');
+    background-image: url('../images/animal-care.png');
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: 50% ;
@@ -110,7 +110,7 @@
     top: 22.5%;
     border-radius: 50vmin;
     box-shadow: 0 0 0 5vmin #ffffff;
-    background-image: url('../images/Butterfly_logo.svg');
+    background-image: url('../images/msn.png');
     background-repeat: no-repeat;
 }
 /*medical curve*/

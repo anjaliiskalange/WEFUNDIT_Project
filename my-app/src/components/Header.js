@@ -1,5 +1,5 @@
 import './header.css';
-import Logo from "../images/Butterfly_logo.svg";
+import Logo from "../images/msn.png";
 import {useState} from 'react';
 
 const Header = ()=>{

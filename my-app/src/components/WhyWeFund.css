@@ -1,0 +1,36 @@
+.why__heading{
+    font-family: Bebas-Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 149.69%;
+    text-align: center;
+    margin: 5%;
+    color: #7354CC;
+}
+.why__row{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: center;
+    text-align: center;
+}
+.why__logo{
+    width: auto;
+    height: 15vh;
+}
+.why__point{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.why__text{
+    font-family:Arima;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 149.69%;
+    text-align: center;
+    margin: 10% 10%;
+    color: #000000;
+}
