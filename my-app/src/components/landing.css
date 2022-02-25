@@ -130,3 +130,183 @@
     line-height: 39px;
     color: #000000;
 }
+@media screen and (max-width: 426px) and (min-width: 300px){
+    .Collage_Main{
+        background-image: url('../images/msn.png');
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position: 50%;
+    }
+    .Collage_tagline{
+        color: white;
+        font-size: 3rem;
+    }
+    .tagline{
+        width: 80%;
+    }
+    .img1, .img2, .img3, .img4{
+        display: none;
+    }
+    .stat__number{
+        font-size: 1.3rem;
+    }
+    .stats__name{
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 650px) and (min-width: 426px){
+    
+}
+
+@media screen and  (max-width: 768px) and (min-width: 650px){
+    
+}
+
+@media screen and  (max-width: 900px) and (min-width: 768px){
+    .Collage_tagline{
+        color: white;
+        font-size: 4.5rem;
+    }
+    .tagline{
+        width: 80%;
+    }
+    .stat__number{
+        font-size: 2rem;
+    }
+    .stats__name{
+        font-size: 1.5rem;
+    }
+    .img1{
+        top: 22%;
+    }
+    .img2{
+        top:22%;
+    }
+    @keyframes dog {
+        0%{
+            top: -200px;
+            opacity: 0;
+        }
+        100%{
+            top:22%;
+            opacity: 1;
+        }
+    }
+    @keyframes education {
+        0%{
+            right: -200px;
+            opacity: 0;
+        }
+        100%{
+            right:10%;
+            opacity: 1;
+        }
+    }
+}
+
+@media screen and  (max-width: 1200px) and (min-width: 900px){
+    .Collage_tagline{
+        color: white;
+        font-size: 4.5rem;
+    }
+    .tagline{
+        width: 80%;
+    }
+    .stat__number{
+        font-size: 2rem;
+    }
+    .stats__name{
+        font-size: 1.5rem;
+    }
+    .img1{
+        top: 20%;
+    }
+    .img2{
+        top:15%;
+    }
+    @keyframes dog {
+        0%{
+            top: -200px;
+            opacity: 0;
+        }
+        100%{
+            top:20%;
+            opacity: 1;
+        }
+    }
+    @keyframes education {
+        0%{
+            right: -200px;
+            opacity: 0;
+        }
+        100%{
+            right:10%;
+            opacity: 1;
+        }
+    }
+}
+
+@media screen and  (max-width: 1400px) and (min-width: 1200px){
+    
+}
+
+@media screen and  (max-width: 2000px) and (min-width: 1400px){
+    .Collage_tagline{
+        font-size: 6.5rem;
+    }
+    .tagline{
+        width: 60%;
+    }
+    .stat__number{
+        font-size: 2rem;
+    }
+    .stats__name{
+        font-size: 1.5rem;
+    }
+    .img1{
+        top: 20%;
+    }
+    .img2{
+        top:15%;
+    }
+    @keyframes dog {
+        0%{
+            top: -200px;
+            opacity: 0;
+        }
+        100%{
+            top:20%;
+            opacity: 1;
+        }
+    }
+    @keyframes education {
+        0%{
+            right: -200px;
+            opacity: 0;
+        }
+        100%{
+            right:10%;
+            opacity: 1;
+        }
+    }
+}
+
+@media screen and  (max-width: 4000px) and (min-width: 2000px){
+    .signup{
+        width: 22vw;
+    }
+}
+
+@media screen and (max-device-width:768px){
+    .signup{
+        width: 50vw;
+    }
+
+}
+
+@media screen and (max-device-width:426px){
+    
+
+}
